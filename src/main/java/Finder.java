@@ -2,7 +2,7 @@ public class Finder {
 
     // Function to find the maximum value given an integer array.
     // Empty/null arrays should return null.
-    public static Integer indMax(int[] intArray) {
+    public static Integer findMax(int[] intArray) {
 
         // check if array is null or empty.
         if (intArray == null || intArray.length == 0) {
@@ -25,7 +25,7 @@ public class Finder {
 
     // Function to find the minimum value given an integer array.
     // Empty/null arrays should return null.
-    public static Integer indMin(int[] intArray) {
+    public static Integer findMin(int[] intArray) {
 
         // check if array is null or empty.
         if (intArray == null || intArray.length == 0) {
