@@ -2,11 +2,11 @@ public class Finder {
 
     // Function to find the maximum value given an integer array.
     // Empty/null arrays should return null.
-    public static int indMax(int[] intArray) {
+    public static Integer indMax(int[] intArray) {
 
         // check if array is null or empty.
         if (intArray == null || intArray.length == 0) {
-            return Integer.parseInt(null);
+            return null;
         }
 
         // initialize minimum value.
@@ -25,11 +25,11 @@ public class Finder {
 
     // Function to find the minimum value given an integer array.
     // Empty/null arrays should return null.
-    public static int indMin(int[] intArray) {
+    public static Integer indMin(int[] intArray) {
 
         // check if array is null or empty.
         if (intArray == null || intArray.length == 0) {
-            return Integer.parseInt(null);
+            return null;
         }
 
         // initialize minimum value.
